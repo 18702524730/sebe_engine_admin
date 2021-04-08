@@ -1,0 +1,84 @@
+/*-- 下面的css后面会移到common.js中  --*/
+.fll, .fl{
+    float: left;
+}
+.flr, .fr{
+    float: right;
+}
+.clearfix:after{
+    display:block;
+    content:'';
+    clear:both;
+}
+.ml-5,.ml5{margin-left: 5px;}
+.ml-10,.ml10{margin-left: 10px;}
+.ml-15,.ml15{margin-left: 15px;}
+.ml-20,.ml20{margin-left: 20px;}
+.ml-25,.ml25{margin-left: 25px;}
+.ml-30,.ml30{margin-left: 30px;}
+.ml-35,.ml35{margin-left: 35px;}
+.ml-40,.ml40{margin-left: 40px;}
+.ml-50,.ml50{margin-left: 50px;}
+
+.mt-5,.mt5{margin-top: 5px;}
+.mt-10,.mt10{margin-top: 10px;}
+.mt-15,.mt15{margin-top: 15px;}
+.mt-20,.mt20{margin-top: 20px;}
+.mt-25,.mt25{margin-top: 25px;}
+.mt-30,.mt30{margin-top: 30px;}
+.mt-35,.mt35{margin-top: 35px;}
+.mt-40,.mt40{margin-top: 40px;}
+.mt-50,.mt50{margin-top: 50px;}
+
+.mr-5,.mr5{margin-right: 5px;}
+.mr-10,.mr10{margin-right: 10px;}
+.mr-15,.mr15{margin-right: 15px;}
+.mr-20,.mr20{margin-right: 20px;}
+.mr-25,.mr25{margin-right: 25px;}
+.mr-30,.mr30{margin-right: 30px;}
+.mr-35,.mr35{margin-right: 35px;}
+.mr-40,.mr40{margin-right: 40px;}
+.mr-50,.mr50{margin-right: 50px;}
+
+.mb-5,.mb5{margin-bottom: 5px;}
+.mb-10,.mb10{margin-bottom: 10px;}
+.mb-15,.mb15{margin-bottom: 15px;}
+.mb-20,.mb20{margin-bottom: 20px;}
+.mb-25,.mb25{margin-bottom: 25px;}
+.mb-30,.mb30{margin-bottom: 30px;}
+.mb-35,.mb35{margin-bottom: 35px;}
+.mb-40,.mb40{margin-bottom: 40px;}
+.mb-50,.mb50{margin-bottom: 50px;}
+
+.hidden{display: none;}
+.commWidth{width: 1280px;margin-left: auto;margin-right: auto;position: relative;}
+body{background-color: #fff;min-width: 1170px;}
+
+
+
+
+/* 主体中的位置导航 */
+.position-wrap{width: 100%;background-color: #fff;}
+	.position{height:55px;line-height: 35px;padding:10px 0;color: #999; font-size: 14px;}
+	.position a{color: #999;}
+	.position a:hover{color: #20a0ff}
+	.position > div{height:35px;}
+	.position .pos-nav a{padding: 0 2px;}
+	.position .pos-nav span{color: #666;}
+	.position .right-nav a{margin-right: 30px;}
+	.position .right-nav a.cur{color: #20a0ff; font-weight: bold;}
+
+
+
+
+
+
+.clearfix {
+	zoom: 1;
+}
+.clearfix::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
